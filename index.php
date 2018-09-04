@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: REST Response Category Name with Post
- * Description: A very simple plugin to add category_name with post response of Wordpress REST API plugin.
+ * Plugin Name: WP REST With Category Name
+ * Description: A very simple plugin to add category_name with post response of the REST API plugin.
  * Author: Sujendra Kumar
- * Author URI: https://github.com/kumarsujendra/rest-response-category-name-with-post
+ * Author URI: https://github.com/kumarsujendra/wp-rest-with-category-name
  */
  
 add_action( 'rest_api_init', 'add_category_name' );
